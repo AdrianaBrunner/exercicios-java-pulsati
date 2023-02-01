@@ -1,9 +1,10 @@
 package com.mycompany.exercicioheranca1;
 
-public class veiculo {
+public abstract class veiculo {
     private double velocidade;
     private int quantidadePassageiros;
-
+    public abstract void imprime();
+    
     public double getVelocidade() {
         return velocidade;
     }

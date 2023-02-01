@@ -1,7 +1,9 @@
 package com.mycompany.exercicioheranca1;
 
 public class moto extends veiculo{
-
+    private double comprimentoGuidao;
+    private int quantidadeRetrovisor;
+    
     public double getComprimentoGuidao() {
         return comprimentoGuidao;
     }
@@ -17,6 +19,10 @@ public class moto extends veiculo{
     public void setQuantidadeRetrovisor(int quantidadeRetrovisor) {
         this.quantidadeRetrovisor = quantidadeRetrovisor;
     }
-    private double comprimentoGuidao;
-    private int quantidadeRetrovisor;
+    
+    @Override
+    public void imprime() {
+        System.out.println("Comprimento guidão: "+comprimentoGuidao+" Quantidade retrovisor: "+quantidadeRetrovisor);
+    }
 }
+

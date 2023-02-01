@@ -20,4 +20,8 @@ public class aviao extends veiculo {
         this.quantidadeJanela = quantidadeJanela;
     }
     
+    @Override
+    public void imprime() {
+        System.out.println("Quantidade porta: "+quantidadePorta+" Quantidade janela: "+quantidadeJanela);
+    }
 }

@@ -3,7 +3,7 @@ package com.mycompany.exercicioheranca1;
 public class ExercicioHeranca1 {
     
     public static void imprimeMensagem(veiculo v) {
-        System.out.println("Quantidade de passageiros: " + v.getQuantidadePassageiros());
+       v.imprime();
     }
 
     public static void main(String[] args) {
